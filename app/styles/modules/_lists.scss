@@ -1,0 +1,15 @@
+ul.horizontal {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  li {
+    display: inline;
+  }
+}
+
+ul.even-padded {
+  li {
+    padding: .2em 1em;
+  }
+}

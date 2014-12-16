@@ -40,6 +40,10 @@ html {
   margin-bottom: -$footer-height;
 }
 
+.centered {
+  text-align: center;
+}
+
 .clear-footer {
   height: $footer-height;
   clear: both;
