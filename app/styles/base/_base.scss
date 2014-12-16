@@ -1,3 +1,7 @@
+a {
+  color: $linkcolor;
+}
+
 body {
   @include Lato-Light;
   background: {
