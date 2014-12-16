@@ -4,6 +4,20 @@ body {
     image: url("/assets/images/bg.png");
     repeat: repeat;
   }
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+#footer {
+  min-height: $footer-height;
+  background: {
+    image: url("/assets/images/footer.png");
+    position: center;
+    repeat: no-repeat;
+  }
 }
 
 #header {
@@ -13,4 +27,20 @@ body {
     repeat: no-repeat;
   }
   min-height: 194px;
+}
+
+.application-root {
+  height: 100%;
+}
+
+.body-container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -$footer-height;
+}
+
+.clear-footer {
+  height: $footer-height;
+  clear: both;
 }

@@ -1,3 +1,10 @@
-{{partial "header"}}
-{{outlet}}
+<div class="body-container">
+  {{partial "header"}}
+
+  <div id="body">
+    {{outlet}}
+  </div>
+
+  <div class="clear-footer"></div>
+</div>
 {{partial "footer"}}
