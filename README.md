@@ -1,51 +1,44 @@
-# Bf
+BF
+===
 
-This README outlines the details of collaborating on this Ember application.
+## DESCRIPTION
 
-A short introduction of this app could easily go here.
+The new [brilliantfantastic.com](http://brilliantfantastic.com).
 
-## Prerequisites
+## PREREQUISITES
 
 You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM) and [Bower](http://bower.io/)
 
-## Installation
+## INSTALLATION
 
-* `git clone <repository-url>` this repository
+* `git clone git@github.com:brilliantfantastic/bf.2015.git` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
 
-## Running / Development
+## RUNNING
 
 * `ember server`
 * Visit your app at http://localhost:4200.
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
+### RUNNING TESTS
 
 * `ember test`
 * `ember test --server`
 
-### Building
+### BUILDING
 
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+## CONTRIBUTING
 
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* ember: http://emberjs.com/
-* ember-cli: http://www.ember-cli.com/
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+1. Clone the repository `git clone https://github.com/brilliantfantastic/bf.2015`
+1. Create a feature branch `git checkout -b my-awesome-feature`
+1. Codez!
+1. Commit your changes (small commits please)
+1. Push your new branch `git push origin my-awesome-feature`
+1. Create a pull request `hub pull-request -b brilliantfantastic:master -h brilliantfantastic:my-awesome-feature`
