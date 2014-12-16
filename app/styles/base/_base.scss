@@ -5,3 +5,12 @@ body {
     repeat: repeat;
   }
 }
+
+#header {
+  background: {
+    image: url("/assets/images/header.png");
+    position: center;
+    repeat: no-repeat;
+  }
+  min-height: 194px;
+}
